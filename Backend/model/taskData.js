@@ -9,8 +9,7 @@ const taskSchema=mongoose.Schema({
         required:true
     },
     status:{
-        type:String,
-        required:true
+        type:String
     },
     createdAt:{
         type:Date,
